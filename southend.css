@@ -1,0 +1,151 @@
+/* Styles for Header */
+
+html {
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+.header {
+    background-color: white;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .logo {
+    float: left;
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  button {
+    background-color: slategrey; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+  }
+
+  h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white
+  }
+h2 {
+    font-size: 40px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+ }
+
+  
+h3 {
+    font: size 30px;
+    color:slategray;
+    font-weight: bolder;
+    font-stretch: wider;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  p {
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Styles for Title Box */
+.title-box {
+    background-color: #7a69b8;
+    padding:30px;
+    
+  }
+  
+  /* Styles for Information Section */
+.info-section {
+    display: flex;
+  }
+  
+  /* Styles for History Box */
+.history-box {
+    flex: 2;
+    padding: 20px;
+    
+  }
+  
+/* Styles for Quick Links Box */
+.quick-links-box {
+    flex: 1;
+    padding: 20px;
+    
+  }
+
+ /* style for each section title box */
+.section-title-box {
+    background-color: #a382b9;
+    padding:20px;
+  }
+  
+.collapse {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    font-size: 20px;
+    font-weight: bolder;
+}
+  /* Styles for Things to Do Box */
+.things-to-do-box {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 20px;
+  }
+  
+/* Add border styles to the row with the class 'border-row' */
+.border-row {
+    border-bottom: 2px solid #b41fb4; /* Purple border color */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Ensure the images have some margin to prevent touching the border */
+.img-container {
+    margin-top: 10px;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+
+  /* Styles for Places to Eat Box */
+.places-to-eat-box {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Styles for Get Here Box */
+.get-here-box {
+    background-color: #d8bfd8;
+    padding: 20px;
+  }
+  
+  /* Styles for Map */
+  #map {
+    flex: 1;
+    height: 300px; /* Adjust height as needed */
+  }
+  
+  /* Styles for Comment Box */
+.comment-box {
+    margin-top: 20px;
+  }
+  
+  /* styles.css */
+
+  

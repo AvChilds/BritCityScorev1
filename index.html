@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Southend-on-Sea</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link rel="stylesheet" href="/southend.css"> <!-- Link to your external CSS file -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<body>
+
+<header class="header">
+    <div>
+        <a href="/homepage.html" class="text-white">
+        <img class="logo" src="LOGO.png" alt="Brit City Scores" height="120">
+        </a>
+    </div>
+    <div>
+        <button>Sign In</button>
+        </a>
+    </div>
+</header>
+
+  <div class="container-fluid">
+    <div class="title-box text-center rounded">
+      <h1>SOUTHEND-ON-SEA</h1>
+    </div>
+    <img src="Headerlandscape.jpg" alt="Southend Landscape" class="img-fluid" width="100%" height="500px">
+    <div class="info-section">
+      <div class="history-box">
+        <h2 style="color: slategrey;">History and Highlights</h2>
+        <p>Short description and history of your chosen location.....</p>
+      </div>
+      <div class="quick-links-box">
+        <h2 style="color:slategrey">Quick Links</h2>
+        <ul>
+          <li><a href="#things-to-do">Things to Do</a></li>
+          <li><a href="#places-to-eat">Places to Eat</a></li>
+          <li><a href="#get-here">How to Get Here</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="section-title-box text-center" id="things-to-do" rounded>
+            <h2 class="rounded"><span class="material-icons">theater_comedy</span> Things to Do</h2>
+        </div>
+
+    <div class="things-to-do-box">
+      <!-- Repeat the following block for each "Thing to Do" -->
+        <!-- Repeat the following block for each "Thing to Do" -->
+        <!--First location, image left, description right-->
+        <div class="row border-row mb-4">
+            <div class="col-md-3 img-container">
+                <img src="AdventureIsland.jpeg" alt="Adventure Island" class="img-fluid" width="100%">
+            </div>
+            <div class="col-md-9">
+                <h3>Adventure Island</h3>
+                <p>Description of Adventure Island...</p>
+                <button class="btn btn-link" data-toggle="collapse" data-target="#adventure-island-details">See more</button>
+                <div id="adventure-island-details" class="collapse">
+                     More details about Adventure Island...
+                </div>
+            </div>
+        </div>
+
+        <div class="row border-row mb-4">
+            <div class="col-md-9">
+                <h3>Southend Pier</h3>
+                <p>Description of Southend Pier...</p>
+                <button class="btn btn-link" data-toggle="collapse" data-target="#southend-pier-details">See more</button>
+                <div id="southend-pier-details" class="collapse">
+                    More details about Southend Pier...
+                </div>
+            </div>
+            <div class="col-md-3 img-container">
+                <img src="southend pier.jpg" alt="Southend Pier" class="img-fluid" width="100%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- First "Thing to Do" item with image on the left and description on the right -->
+                    <div class="col-md-3 img-container">
+                        <img src="CliffsPavilion.jpg" alt="Cliffs Pavilion" class="img-fluid" width="100%">
+                    </div>
+                    <div class="col-md-9">
+                        <h3>Cliffs Pavilion</h3>
+                        <p>Description of Cliffs Pavilion...</p>
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#cliffs-details">See more</button>
+                        <div id="cliffs-details" class="collapse">
+                             More details about the Cliffs Pavilion...
+                        </div>
+                    </div>
+                </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="section-title-box text-center" id="places-to-eat">
+            <h2><span class="material-icons">restaurant_menu</span>  Places to Eat </h2>
+        </div>
+    </div>
+
+    <div class="places-to-eat-box rounded">
+        <div class="row">
+            <div class="col-md-4 text-center rounded">
+                <div class="restaurant">
+                    <a href="https://www.roslinhotel.com/roslin-dining" target="_blank" data-toggle="tooltip" title="Click here to make a booking">
+                        <img src="roslinfood.jpeg" alt="Roslin Tea" width="200">
+                    </a>
+                    <h3>Roslin Beach Hotel Restaurant</h3>
+                    <p>Rating: ★★★★★</p>
+                    <p> Cost: £££ </p>
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#roslinDetails">Details</button>
+                    <div id="roslinDetails" class="collapse">
+                        Brief description.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center rounded">
+                <div class="restaurant">
+                    <a href="https://thepeterboat.co.uk" target="_blank" data-toggle="tooltip" title="Click here to make a booking">
+                    <img src="peterboatfood.jpeg" alt="Peterboat" width="200">
+                    </a>
+                    <h3>The Peterboat</h3>
+                     <p>Rating: ★★★★</p>
+                     <p>Cost: ££</p>
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#peterboatDetails">Details</button>
+                    <div id="peterboatDetails" class="collapse">
+                        Brief description 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center rounded">
+                <div class="restaurant">
+                    <a href="https://pearldragon.co.uk" target="_blank"data-toggle="tooltip" title="Click here to make a booking" >
+                    <img src="PearlDragonfood.jpeg" alt="PearlDragon" width="200">
+                    </a>
+                    <h3>Pearl Dragon</h3>
+                    <p>Rating: ★★★★★</p>
+                    <p>Cost: £££ </p>
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#pearlDetails">Details</button>
+                    <div id="pearlDetails" class="collapse">
+                         Brief description 
+                     </div>
+                </div>
+            </div>
+
+            <script>
+                $(document).ready(function(){
+                    $('[data-toggle="tooltip"]').tooltip();
+                })
+            </script>
+      
+    </div>
+
+    <div class="container-fluid">
+        <div class="section-title-box text-center" id="get-here">
+            <h2>How to Get Here</h2>
+        </div>
+
+        <div id="map"></div>
+        <div class="get-here-list">
+            <ul>
+                <li>Road</li>
+                <li>Railway Stations</li>
+                <li>Nearest Airport</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="comment-box">
+      <button class="btn btn-primary">Leave a Comment</button>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+  <!-- Include your map script here -->
